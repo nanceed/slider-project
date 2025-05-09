@@ -179,7 +179,7 @@ Slider
     margin-top: 4rem;
 }
 .slide {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     background: var(--clr-primary-9);
@@ -242,7 +242,7 @@ Slider
 }
 @media screen and (min-width: 768px) {
     .slider-container {
-        height: 55vh;
+        height:55vh;
     }
 }
 @media screen and (min-width: 992px) {
@@ -250,7 +250,7 @@ Slider
     height: 65vh;
   }
 }
-/* .slide:nth-child(1){
+/*.slide:nth-child(1){
   left: 0;
 }
 .slide:nth-child(2){
